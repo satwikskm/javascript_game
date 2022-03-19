@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Odibee Sans', cursive;
+    background-image: linear-gradient(to right, blue, violet);
+    
+    
+    
+}
+
+a{
+    text-decoration: none;
+}
+.card-1{
+    border: 2px ;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 42%;
+    background: white;
+    text-align: center;
+}
+.nav{
+    margin: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 50px;
+    font-family: 'Odibee Sans', cursive;
+    
+
+
+}
+
+.nav a{
+    color:black;
+
+}
+
+.nav button{
+    background:transparent;
+    color: black;
+    padding: 30px 30px;
+    font-size: 30px;
+    border: none;
+    font-family: 'Odibee Sans', cursive;
+
+}
+
+.nav button :hover{
+    background:green;
+    color: black;
+    padding: 30px 30px;
+    font-size: 30px;
+    border: none;
+    font-family: 'Odibee Sans', cursive;
+    cursor: pointer;
+    
+
+}
+
+
+
+
+
+.number{
+    padding-top: 20%;
+    font-size: 100px;
+    
+}
+
+.top{
+    margin: 0% 0%;
+}
+
+.top h1{
+    font-size: 100px;
+    text-align: center;
+    font-weight: 400;
+}
+.bottom{
+    display: flex;
+    flex-direction: column-reverse;
+    gap:50px;
+    height:10vh;
+    margin: 20% 20%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.bottom-right input{
+    padding: 30px 30px;
+    width: 50%;
+    font-family: 'Odibee Sans', cursive;
+}
+
+
+
+.bottom-right{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    height:50vh;
+    margin-left: 25%;
+
+}
+
+.bottom-right button{
+    padding: 20px 20px;
+    width: 20%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 30px;
+    border-radius: 30px;
+    border:none;
+    background-color: rgba(35, 35, 126, 0.37);
+}
+
+.bottom-right button:hover{
+    width: 25%;
+    background-color: rgba(57, 22, 97, 0.603);
+    
+}
+
+.btn:hover{
+    background: green;
+}
+
+.card-1-active{
+    background-color: green;
+}
+
+.bottom-left{
+    margin-top: 50%;
+}
