@@ -137,6 +137,6 @@ a{
     background-color: green;
 }
 
-.bottom-left{
-    margin-top: 50%;
+.bottom-left p{
+    transform: translate(0px,15px);
 }
